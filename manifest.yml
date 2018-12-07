@@ -16,7 +16,7 @@ exclude_files:
 - php_buildpack-*v*
 default_versions:
 - name: php
-  version: 7.2.12
+  version: 7.2.9
 - name: httpd
   version: 2.4.37
 - name: newrelic
@@ -1110,6 +1110,80 @@ dependencies:
   sha256: be11b88447047161e4c5c6b2fb8dcf5a95b30582d71f13d735449c7577a4a6b9
   cf_stacks:
   - cflinuxfs3
+  modules:
+  - amqp
+  - apcu
+  - bz2
+  - cassandra
+  - curl
+  - dba
+  - enchant
+  - exif
+  - fileinfo
+  - ftp
+  - gd
+  - geoip
+  - gettext
+  - gmp
+  - igbinary
+  - imagick
+  - imap
+  - interbase
+  - ioncube
+  - ldap
+  - lua
+  - lzf
+  - mailparse
+  - mbstring
+  - memcached
+  - mongodb
+  - msgpack
+  - mysqli
+  - oauth
+  - opcache
+  - openssl
+  - pcntl
+  - pdo
+  - pdo_firebird
+  - pdo_mysql
+  - pdo_odbc
+  - pdo_pgsql
+  - pdo_sqlite
+  - pgsql
+  - phalcon
+  - phpiredis
+  - protobuf
+  - pspell
+  - rdkafka
+  - readline
+  - recode
+  - redis
+  - shmop
+  - snmp
+  - soap
+  - sockets
+  - sodium
+  - stomp
+  - sysvmsg
+  - sysvsem
+  - sysvshm
+  - tideways
+  - tideways_xhprof
+  - tidy
+  - wddx
+  - xdebug
+  - xmlrpc
+  - xsl
+  - yaf
+  - yaml
+  - zip
+  - zlib
+- name: php
+  version: 7.2.9
+  uri: https://drive.google.com/uc?authuser=0&id=1dTgg14Z2KthTcVv2CcbXtLpv8kfUduBE&export=download
+  sha256: 3e773300bd2507524d3f67489ab44394d8344ac96678b0ad9d94b910d32e617d
+  cf_stacks:
+  - cflinuxfs2
   modules:
   - amqp
   - apcu
